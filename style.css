@@ -194,6 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Media Queries */
 
+/*4 to 6 ratio for larger screens*/
 @media(min-width: 1200px) {
     #left {
         flex: 4;
@@ -204,6 +205,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/*Makes right side disappear and resizes elements for smaller screens*/
 @media(max-width: 768px){
     body {
         overflow: auto;
