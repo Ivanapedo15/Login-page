@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -32,6 +36,8 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
+
+/*Signin*/
 
 #signin {
     display: flex;
@@ -72,8 +78,29 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.3rem;
 }
 
+#signin .primary-btn{
+    width: 100%;
+}
 
-/* Media Queries */
+/*Buttons*/
+
+.primary-btn{
+    padding: 0.7rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 500;
+    background: #F96816;
+    color:#FFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+/* Media Query */
+
 @media(min-width: 1200px) {
     #left {
         flex: 4;
