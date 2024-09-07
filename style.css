@@ -113,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Footer*/
+
 #main-footer {
     color: #ccc;
     text-align: center;
@@ -127,6 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Showcase*/
+
 #showcase {
     display: flex;
     justify-content: center;
@@ -190,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #ff7b39;
 }
 
-/* Media Query */
+/* Media Queries */
 
 @media(min-width: 1200px) {
     #left {
